@@ -45,6 +45,7 @@ enabled = true
 logpath = %(nginx_access_log)s
 filter = nginxrepeatoffender
 banaction = nginxrepeatoffender
+port = http,https
 bantime  = 86400   ; 1 day
 findtime = 604800   ; 1 week
 maxretry = 20
